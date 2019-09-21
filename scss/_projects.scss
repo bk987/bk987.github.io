@@ -1,0 +1,34 @@
+.projects-section {
+    padding: 10rem 0;
+
+    .featured-text {
+        padding: 2rem;
+
+        @media (min-width: 992px) {
+            padding: 0 0 0 2rem;
+            border-left: 0.5rem solid $primary;
+        }
+    }
+
+    .project-text {
+        h4 {
+            color: $black;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 0.125rem solid $primary;
+            
+            @media (min-width: 992px) {
+                display: inline-block;
+                border-bottom: 0.25rem solid $primary;
+            }
+        }
+
+    }
+
+    .project-image {
+        img {
+            border-radius: $border-radius !important;
+            box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+        }
+    }
+}

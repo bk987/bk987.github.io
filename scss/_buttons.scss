@@ -1,0 +1,40 @@
+.btn {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    font-family: "Varela Round";
+    border: 0;
+    letter-spacing: 0.1rem;
+}
+
+.btn-lg {
+    padding: 1.25rem 2rem;
+    font-size: .875rem;
+}
+
+.btn-sm {
+    padding: .5rem .8rem;
+    font-size: .75rem;
+}
+
+.btn-primary {
+    background-color: $primary;
+    &:hover {
+        background-color: darken($primary, 10%);
+    }
+    &:focus {
+        background-color: darken($primary, 10%);
+        color: white;
+    }
+    &:active {
+        background-color: darken($primary, 15%) !important;
+    }
+    &.disabled, &:disabled {
+        background-color: darken($primary, 30%) !important;
+        border-color: darken($primary, 30%) !important;
+    }
+}
+
+.btn-secondary {
+    &:focus {
+        color: white;
+    }
+}

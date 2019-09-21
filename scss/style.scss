@@ -1,0 +1,48 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'buttons.scss';
+@import 'about.scss';
+@import 'projects.scss';
+@import 'contact.scss';
+
+body {
+    font-family: 'Nunito';
+    letter-spacing: 0.0625em;
+    background-color: $white !important;
+}
+
+a {
+    color: $primary;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+        color: darken($primary, 20%);
+    }
+}
+
+.bg-black {
+    background-color: $black !important;
+}
+
+.bg-dark {
+    background-color: $gray-700 !important;
+}
+
+.bg-gray {
+    background-color: $gray-200 !important;
+}
+
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-white-70 {
+    color: rgba($white, .7) !important;
+}
